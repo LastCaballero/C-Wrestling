@@ -10,6 +10,7 @@ char line[1024] ;
 int main (int count,  char *args[]  ) {
 	do_stdin();
 	do_args ( args ) ;
+	return 0 ;
 }
 
 void do_stdin() {
